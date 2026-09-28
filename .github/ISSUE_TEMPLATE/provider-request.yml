@@ -1,0 +1,26 @@
+name: Provider request
+description: Ask Upseam to watch another API.
+labels: [provider-request]
+body:
+  - type: markdown
+    attributes:
+      value: Supported providers are listed at https://upseam.dev/docs/providers/.
+  - type: input
+    id: provider
+    attributes:
+      label: Provider and API
+      description: For example, the REST API of a payments provider.
+    validations:
+      required: true
+  - type: input
+    id: changelog
+    attributes:
+      label: Changelog or API reference URL
+  - type: input
+    id: sdk
+    attributes:
+      label: SDK and language you use
+  - type: textarea
+    id: why
+    attributes:
+      label: What broke or what you want to catch

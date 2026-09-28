@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private matters and security
+    url: https://github.com/upseam/upseam/security/policy
+    about: Your code, your company or a vulnerability. Email contact@upseam.dev instead of opening a public issue.
+  - name: Documentation
+    url: https://upseam.dev/docs/
+    about: Install, configuration, CLI and providers.
